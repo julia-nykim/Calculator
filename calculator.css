@@ -1,3 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Calculator Box */
+.box {
+	background-color: #e5e7ea;
+	height: 300px;
+	width: 250px;
+	border-radius: 10px;
+	position: relative;
+	top: 80px;
+	left: 40%;
+}
+
+/* Display */
+.display {
+	background-color: #bfc4ce;
+	width: 200px;
+	position: relative;
+	left: 15px;
+	top: 20px;
+	height: 40px;
+}
