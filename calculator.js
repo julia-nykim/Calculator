@@ -1,4 +1,5 @@
 // JavaScript Document
+var period = false;
 
 // Change Display
 function d(val) {
@@ -7,7 +8,17 @@ function d(val) {
 
 // Type numbers and operators
 function v(val) {
-	document.getElementById("d").value += val;
+	if(val == '.') {
+		if(period === false) {
+			document.getElementById("d").value += val;
+			period = true;
+		}
+	} else if(val === '+' || val === '-' || val === '*' || val === '/') {
+		period = false;
+		document.getElementById("d").value += val;
+	} else {
+		document.getElementById("d").value += val;
+	}
 }
 
 // Evaluate the equation
