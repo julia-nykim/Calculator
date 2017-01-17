@@ -3,7 +3,7 @@
 
 /* Calculator Box */
 .box {
-	background-color: #e5e7ea;
+	background-color: #4f5154;
 	height: 310px;
 	width: 320px;
 	border-radius: 10px;
@@ -49,13 +49,13 @@
 }
 .button.function {
 	color: white;
-	background-color: #c64f81;
+	background-color: #a5215f;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.operator {
 	color: white;
-	background-color: #4d5966;
+	background-color: #707c84;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
