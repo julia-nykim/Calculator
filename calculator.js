@@ -3,6 +3,11 @@ var period = false;
 
 // Change Display
 function d(val) {
+	// Clearing the display
+	if( val == "" ) {
+		// Reset your period toggle
+		period = false;
+	}
 	document.getElementById("d").value = val;
 }
 
